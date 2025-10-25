@@ -1,25 +1,5 @@
 
 
-import collections
-if not hasattr(collections, 'Mapping'):
-    import collections.abc
-    collections.Mapping = collections.abc.Mapping
-    collections.Iterable = collections.abc.Iterable
-    collections.MutableMapping = collections.abc.MutableMapping
-
-import streamlit as st
-import torch
-import dgl
-from dgllife.utils import SMILESToBigraph
-from rdkit import Chem
-import numpy as np
-import matplotlib.pyplot as plt
-
-st.title("DGL Demo App")
-st.write("✅ DGL, Torch, RDKit and friends are all working together!")
-
-st.success(f"Torch version: {torch.__version__}")
-st.success(f"DGL version: {dgl.__version__}")
 
 import os
 import streamlit as st
@@ -64,4 +44,5 @@ except Exception as e:
     st.exception(e)
 
 st.caption("✅ Environment check complete – Torch, DGL, dgllife, and RDKit all functioning.")
+
 
