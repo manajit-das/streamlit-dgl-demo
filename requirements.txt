@@ -1,14 +1,9 @@
-# === Core Deep Learning ===
-torch==2.4.0
-torchvision==0.19.0
-torchaudio==2.4.0
-
-# === Graph Deep Learning (CUDA 12.4 build) ===
-dgl @ https://data.dgl.ai/wheels/torch-2.4/cu124/dgl-2.1.0-cp310-cp310-manylinux1_x86_64.whl
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+dgl==2.1.0
 dgllife==0.3.2
 rdkit==2025.9.1
-
-# === Utilities ===
 streamlit
 numpy
 matplotlib
