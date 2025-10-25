@@ -1,10 +1,11 @@
 torch
 dgl
-dgllife==0.3.2
-rdkit==2025.9.1
+dgllife
+rdkit
 streamlit
 numpy
 matplotlib
 scikit-learn
+
 
 
